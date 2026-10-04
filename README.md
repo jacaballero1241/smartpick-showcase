@@ -42,7 +42,8 @@ Existing sites show static win-rate tables; none recommend the best pick for *th
 3. **Rune recommendations** (rolling out). A second model suggests the rune setup for the chosen champion and matchup.
 4. **Live-game guidance.** Syncs with the player's active match and uses an LLM to generate strategy advice for that draft.
 
-![Explainability: synergies and counters](images/explainability.png)
+<img width="1904" height="915" alt="image" src="https://github.com/user-attachments/assets/002ea522-0005-460d-a0cf-336ec4562fc0" />
+
 
 ---
 
