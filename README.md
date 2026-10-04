@@ -12,10 +12,6 @@ into real-time strategy advice.
 
 <img width="1903" height="915" alt="image" src="https://github.com/user-attachments/assets/cf5bcdf7-af9e-422c-80a1-f1ef0bcd3735" />
 
-
-
-
-
 ---
 
 ## At a glance
