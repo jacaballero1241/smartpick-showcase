@@ -10,7 +10,8 @@ into real-time strategy advice.
 > This repository is a case study. The product's source code is private and owned jointly by its three
 > co-founders; this page describes what we built and how.
 
-<img width="1920" height="1040" alt="image" src="https://github.com/user-attachments/assets/1231ccdc-ea6e-4d4f-8061-da7672c93475" />
+<img width="1903" height="915" alt="image" src="https://github.com/user-attachments/assets/cf5bcdf7-af9e-422c-80a1-f1ef0bcd3735" />
+
 
 
 
