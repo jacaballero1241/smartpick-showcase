@@ -46,8 +46,6 @@ Existing sites show static win-rate tables; none recommend the best pick for *th
 
 <img width="1905" height="917" alt="image" src="https://github.com/user-attachments/assets/fb4a53c3-e6f3-4ada-947a-a4e3c73f43a1" />
 
-
-
 ---
 
 ## Architecture
@@ -80,8 +78,7 @@ flowchart LR
 ## The model
 
 - **Task:** predict the probability that a team wins, given the ten champions in the draft and their roles.
-- **Network:** a fully connected neural network (1024 → 512 → 128 → 32 → 4 → 1), trained with binary
-  cross-entropy, a warm-up-then-decay learning-rate schedule and early stopping.
+- **Network:** a fully connected neural network (confidential parameters).
 - **Recommendation:** for each champion still available, the model scores the completed draft; champions are
   ranked by their predicted win probability.
 - **Explainability:** the contribution of each ally and enemy champion is quantified and shown as synergy and
@@ -113,15 +110,6 @@ flowchart LR
 - **Product:** set the roadmap, ran the closed beta and turned player feedback into features.
 - **Team & company:** built the founding team, negotiated equity, and handled the Riot Games API agreement,
   GDPR-compliant terms and privacy policy.
-
-## What I learned
-
-- **Shipping beats accuracy.** The jump from a good notebook model to a fast, cheap production API (ONNX on Lambda)
-  mattered more to users than the last decimal of accuracy.
-- **Explainability drives trust.** A recommendation is only useful if people act on it; showing the synergy and
-  counter breakdown lets players check each pick for themselves. The same principle applies to credit decisions in banking.
-- **Automate the data, not just the model.** A new game patch changes the balance every two weeks; automated
-  regional ingestion keeps the recommendations current without manual work.
 
 ---
 
