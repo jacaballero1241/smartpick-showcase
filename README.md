@@ -44,6 +44,9 @@ Existing sites show static win-rate tables; none recommend the best pick for *th
 
 <img width="1904" height="915" alt="image" src="https://github.com/user-attachments/assets/002ea522-0005-460d-a0cf-336ec4562fc0" />
 
+<img width="1905" height="917" alt="image" src="https://github.com/user-attachments/assets/fb4a53c3-e6f3-4ada-947a-a4e3c73f43a1" />
+
+
 
 ---
 
